@@ -1,0 +1,96 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family:'Cairo', sans-serif;
+}
+.frist{
+    height: 100vh;
+    width: 100%;
+    position: relative;
+    background: url(background.png);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.frist .box{
+    height: 86vh;
+    width: 75%;
+    padding: 0 20px;
+    background-color: #ffffff1a;
+    z-index: 10;
+    border: 2px solid #ffffffb3;
+    border-radius: 20px;
+    display: flex;
+    backdrop-filter: blur(25px);
+    box-shadow: -15px 17px 17px rgb(10, 10, 10,00.15);
+}
+.frist::after{
+    content: '';
+    position: absolute;
+    height: 300px;
+    width: 300px;
+    background: #c1d9fb;
+    transform: translate(490px,150px);
+    border-radius: 50px;
+
+}
+.frist .box nav{
+    height: 15vh;
+    width: 95%;
+    position: absolute;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 15px auto;
+    padding: 20px;
+}
+.frist .box nav ul li{
+    display: inline-block;
+    padding: 0 20px;
+}
+nav .logo{
+    font-size: 35px;
+    color: black;
+    font-weight: bold;
+    margin-top: 5px;
+    margin-left: 30px;
+    text-decoration: none;
+}
+.frist .box .contains{
+    text-align: right;
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    margin-top: 8%;
+    padding-left: 80px;
+}
+.frist .box .contains .section1{
+    position:relative;
+    width: 40%;
+}
+.contains .section1 h1{
+    margin-bottom: 20px;
+    font-size: 30px;
+    font-weight: bold;
+    color: #000;
+}
+.contains .section1 h3{
+    font-size: 24px;
+    color: rgb(81, 28, 204);
+    margin-bottom: 10px;
+}
+.contains .section1 p{
+    font-size: 18px;
+    color: rgb(73, 72, 75);
+    margin-bottom: 50px;
+}
+.contains .section2{
+    width: 70px;
+    margin-right: 300px;
+}
+.contains .section2 img{
+    width: 500%;
+}
